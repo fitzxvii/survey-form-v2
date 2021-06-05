@@ -2,9 +2,7 @@ name: Github Actions Debug
 
 on:
   pull_request:
-    branches:
-      - test
-      - develop
+    branches: '*'
   push:
     branches: '*'
 
